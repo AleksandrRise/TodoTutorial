@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome Page</title>
+    <title>Login Page</title>
 </head>
 <body>
     Welcome to the login page!
