@@ -9,6 +9,15 @@ public class Todo {
     private LocalDate targetDate;
     private boolean done;
 
+    public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
+        this.id = id;
+        this.username = username;
+        this.description = description;
+        this.targetDate = targetDate;
+        this.done = done;
+    }
+
+
     public int getId() {
         return id;
     }
@@ -50,7 +59,7 @@ public class Todo {
     }
 
     @Override
-    public String toString() {
+    public String  toString() {
         return "Todo{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
